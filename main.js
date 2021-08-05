@@ -7,11 +7,11 @@ const pathCharacter = '*';
 
 class Field {
     constructor(field) {
-        this._field = [];
+        this._field = field;
     }
     print() {
-        // for (let row of this._field) {
-            console.log(this._field.join(' '));
+        // logs field to the console
+        console.log(this._field.join(' '));
         
     }
 }
