@@ -11,8 +11,9 @@ class Field {
     }
     print() {
         // logs field to the console
-        console.log(this._field.join(' '));
-        
+        for(let i = 0; i < this._field.length; i++) {
+        console.log(this._field[i].join(' '));
+        }
     }
 }
 
